@@ -12,7 +12,7 @@ source_dir = input(r"Enter the source directory path : ").replace('\\', '/')
 dest_dir = input(r"Enter the destination directory path : ").replace('\\', '/')  
   
 
-  # Create a dictionary to map file extensions to their respective folders  
+# Create a dictionary to map file extensions to their respective folders  
 extension_map = {  
     '.jpg': 'Images',  
     '.png': 'Images',  
